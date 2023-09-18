@@ -1,4 +1,4 @@
-const express = import('express'); // Importing express module
+const express = require('express'); // Importing express module
 const app = express(); // Creating an express app
 const inquirer = require('inquirer'); // Importing inquirer module
 const mysql = require('mysql2'); // Importing mysql2 module
